@@ -1,9 +1,7 @@
 
-<img src="https://i.imgur.com/mnMYF8Y.jpg" align="right" width="70" height="100" />
+<img src="https://i.imgur.com/mnMYF8Y.jpg" align="right" width="130" height="130" />
 
-#### [website](https://stenko.xyz)
-
-# stenko
+# [website](https://stenko.xyz)
 - this is the injection for the free version of my discord malware
 
 # credits
