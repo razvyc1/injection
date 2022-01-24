@@ -4,5 +4,4 @@
 # [website](https://stenko.xyz)
 - this is the injection for the free version of my discord malware
 
-# credits
-- https://github.com/Stanley-GF
+# [credits](https://github.com/Stanley-GF)
